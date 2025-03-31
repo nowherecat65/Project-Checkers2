@@ -71,7 +71,7 @@ $(".container")[0].style.backgroundColor = "#0A0A0A";
 
 document.getElementById("header").src = "https://files.catbox.moe/59ri3d.png";
 
-document.body.background = "https://files.catbox.moe/4u07xw.png";
+document.body.background = "https://files.catbox.moe/6712sm.png";
 
 
 selectedTheme.text_col = "black"
