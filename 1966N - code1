@@ -42,13 +42,13 @@ credits = function() {
  }
 
 jet_data = {
-    "headerColor": "#46484A",
-    "windowColor": "#46484A",
-    "containerColor": "#0A0A0A",
+    "headerColor": "#3E3E51",
+    "windowColor": "#3E3E51",
+    "containerColor": "#0F1211",
     "innerWindowColor": "#8f8f8f",
     "bannerImageUrl": "https://i.imgur.com/hIK67xD.png",
     "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
-    "endingTextColor": "#0A0A0A",
+    "endingTextColor": "#0F1211",
     "customQuote": "",
     "gameTitle": "NOW, MORE THAN EVER"
 }
@@ -59,19 +59,19 @@ jet_data = {
 corrr = '\n              <h2>NOW, MORE THAN EVER</h2>\n            ';
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#46484A";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#3B3A55";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#46484A";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#3B3A55";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#0A0A0A";
+$(".container")[0].style.backgroundColor = "#0F1211";
 
 document.getElementById("header").src = "https://files.catbox.moe/2o1fkv.png";
 
-document.body.background = "https://files.catbox.moe/6712sm.png";
+document.body.background = "https://files.catbox.moe/hjctys.png";
 
 
 selectedTheme.text_col = "black"
