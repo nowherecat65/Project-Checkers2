@@ -42,7 +42,7 @@ credits = function() {
  }
 
 jet_data = {
-    "headerColor": "#423C70",
+    "headerColor": "#383456",
     "windowColor": "#423C70",
     "containerColor": "#232521",
     "innerWindowColor": "#8f8f8f",
@@ -59,7 +59,7 @@ jet_data = {
 corrr = '\n              <h2>NOW, MORE THAN EVER</h2>\n            ';
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#423C70";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#383456";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#423C70";
 
