@@ -73,6 +73,22 @@ document.getElementById("header").src = "https://files.catbox.moe/2o1fkv.png";
 
 document.body.background = "https://files.catbox.moe/hjctys.png";
 
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #232521;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+
 document.body.style.backgroundAttachment = "fixed";
 
 
