@@ -65,13 +65,15 @@ nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#423C70";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
-$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+$("#game_window")[0].style.background = "linear-gradient(#423C70, #383456)";
 
 $(".container")[0].style.backgroundColor = "#232521";
 
 document.getElementById("header").src = "https://files.catbox.moe/2o1fkv.png";
 
 document.body.background = "https://files.catbox.moe/hjctys.png";
+
+document.body.style.backgroundAttachment = "fixed";
 
 
 selectedTheme.text_col = "black"
