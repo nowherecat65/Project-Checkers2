@@ -123,12 +123,21 @@ function addDynamicCSS() {
             transition-delay: 0.5s;
         }
         .inner_window {
-            background: linear-gradient(#F3F1EB, #F4F1EC) !important;
+            background: linear-gradient(#F6F6F4, #F7F6F4) !important;
         }
 
         .inner_window_question {
-            background: linear-gradient(#F3F1EB, #F4F1EC) !important;
+            background: linear-gradient(#F6F6F4, #F7F6F4) !important;
         }
+
+        .main > div:not(.inner_window):not(.inner_window_question) {
+            background: linear-gradient(#F6F6F4, #F7F6F4) !important;
+        }
+  	.inner_window_question h3 {
+    	    background-color: #F5ECED;
+  	}
+  	.overlay_window h3 {
+            background-color: #403555;
     `;
 
     var styleElem = document.createElement('style');
