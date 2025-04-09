@@ -122,6 +122,13 @@ function addDynamicCSS() {
             opacity: 1;
             transition-delay: 0.5s;
         }
+        .inner_window {
+            background: linear-gradient(#F3F1EB, #F4F1EC) !important;
+        }
+
+        .inner_window_question {
+            background: linear-gradient(#F3F1EB, #F4F1EC) !important;
+        }
     `;
 
     var styleElem = document.createElement('style');
