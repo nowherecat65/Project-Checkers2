@@ -221,12 +221,12 @@ function newMusicPlayer() {
             name: "Nixon Nights 2",
             tracklist: [
               {
-                "name": "That's Not Me - Brian Wilson",
-                "url": "https://audio.jukehost.co.uk/sHySBadMzjJc51UKAmsIDTZOaZ2Kxjxo"
+                "name": "Jug BNad Music - The Lovin' Spoonful",
+                "url": "https://audio.jukehost.co.uk/0b2u6b8hvXIuDWazLOjOtgfAGz8fUYqD"
               },
               {
-                "name": "Jug Band Music - The Lovin' Spoonful",
-                "url": "https://audio.jukehost.co.uk/0b2u6b8hvXIuDWazLOjOtgfAGz8fUYqD"
+                "name": "That's Not Me - Brian Wilson",
+                "url": "https://audio.jukehost.co.uk/sHySBadMzjJc51UKAmsIDTZOaZ2Kxjxo"
               },
               {
                 "name": "Go Vote Nixon and Lodge! - The Clancy Hayes Dixieland Band",
