@@ -221,7 +221,7 @@ function newMusicPlayer() {
             name: "Nixon Nights 2",
             tracklist: [
               {
-                "name": "Jug BNad Music - The Lovin' Spoonful",
+                "name": "Jug Band Music - The Lovin' Spoonful",
                 "url": "https://audio.jukehost.co.uk/0b2u6b8hvXIuDWazLOjOtgfAGz8fUYqD"
               },
               {
