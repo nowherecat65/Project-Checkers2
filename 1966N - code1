@@ -548,6 +548,23 @@ background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
 }
+          #progress-bar-container {
+            height:18px;
+            width:558px;
+            margin-left: -230px;
+            margin-Top: -45px;
+            border-radius: 5px
+          }
+          
+          #progress-bar {
+            width: 100%;
+            height: 100%;
+            margin-left: -29px;
+            margin-Top: 124px;
+            appearance: none;
+            background-image: url("https://files.catbox.moe/x1wajj.png");
+            border: none; 
+          }
     `;
 
     var styleElem = document.createElement('style');
