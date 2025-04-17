@@ -29,12 +29,11 @@ style_overwrite.innerHTML =
   background-color: #322e4c; /* dark, ink-toned purple */
   border: 2px solid #1a1829; /* deep steel-like black-blue border */
   color: #f0efe9; /* soft cream-white, mimics poster paper tone */
-  font-weight: bold;
-  font-family: "Arial Narrow", sans-serif;
-  text-align: center;
-  letter-spacing: 1px;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  font-weight: bold; 
+  text-shadow: 1px 1px 0 #0e0d18;
+  box-shadow:
+    inset 0 0 3px rgba(20, 18, 31, 0.4),
+    0 0 6px rgba(0, 0, 0, 0.25);
 }
 .inner_window_question h3 {
 background: linear-gradient(180deg, #eae9ef 0%, #dad8e6 20%, #c7c4db 40%, #b8b4cc 60%, #a8a3bf 80%, #9c97b5 100%);
