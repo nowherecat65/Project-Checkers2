@@ -316,21 +316,21 @@ credits = function() {
  }
 
 jet_data = {
-    "headerColor": "#383456",
-    "windowColor": "#423C70",
-    "containerColor": "#232521",
-    "innerWindowColor": "#8f8f8f",
-    "bannerImageUrl": "https://i.imgur.com/hIK67xD.png",
-    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
-    "endingTextColor": "#232521",
-    "customQuote": "",
-    "gameTitle": "NOW, MORE THAN EVER"
+  "headerColor": "#2f2b44",                // darker, colder than original
+  "windowColor": "#3b345c",                // muted purple/ink-washed steel
+  "containerColor": "#161617",             // deep matte noir
+  "innerWindowColor": "#8e8c87",           // aged paper tone
+  "bannerImageUrl": "https://i.imgur.com/hIK67xD.png", // Keep or replace with Nixon-style poster crop
+  "backgroundImageUrl": "https://i.imgur.com/C3HU9mL.jpg", // recommend replacing with dark texture, see note below
+  "endingTextColor": "#eae7df",            // bone white, not flat white
+  "customQuote": "Peace with honor. Strength with clarity.",
+  "gameTitle": "NOW, MORE THAN EVER"
 }
 
 //#startcode
 
 
-corrr = '\n              <h2>NOW, MORE THAN EVER</h2>\n            ';
+corrr = '\n<h2 style="color: #f3efe6; font-weight: bold; text-shadow: 1px 1px 0 #0c0c0c; font-family: \'Helvetica Neue\', Helvetica, Arial, sans-serif; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 8px;">NOW, MORE THAN EVER</h2>\n';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#383456";
