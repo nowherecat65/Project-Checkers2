@@ -32,10 +32,9 @@ style_overwrite.innerHTML =
   font-weight: bold;
   font-family: "Arial Narrow", sans-serif;
   text-align: center;
-  text-transform: uppercase;
   letter-spacing: 1px;
   padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
 .inner_window_question h3 {
 background: linear-gradient(180deg, #eae9ef 0%, #dad8e6 20%, #c7c4db 40%, #b8b4cc 60%, #a8a3bf 80%, #9c97b5 100%);
