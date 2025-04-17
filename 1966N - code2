@@ -26,20 +26,77 @@ campaignTrail_temp.game_start_logging_id = '3660822';
 const style_overwrite = document.createElement("style");
 style_overwrite.innerHTML = 
 `#campaign_sign {
-  background-color: #3b365d;
-  border-color: #1f1c31;
+  background: linear-gradient(to bottom, #2c2746 0%, #3b365d 60%, #1d1a2f 100%);
+  border: 2px solid #14121f;
+  color: #f2efe8;
+  text-shadow: 1px 1px 0 #0e0d18;
+  box-shadow:
+    inset 0 0 3px rgba(20, 18, 31, 0.4),
+    0 0 6px rgba(0, 0, 0, 0.25);
+}
+.inner_window_question h3 {
+background: linear-gradient(180deg, #eae9ef 0%, #dad8e6 20%, #c7c4db 40%, #b8b4cc 60%, #a8a3bf 80%, #9c97b5 100%);
+border: 1px solid #817e99;
+box-shadow:
+  inset 0 0 3px rgba(40, 40, 60, 0.25),
+  inset 0 1px 0 rgba(255, 255, 255, 0.15),
+  inset 0 -1px 0 rgba(80, 80, 100, 0.1);
+padding: 2px 4px;
+font-family: "Tahoma", "Verdana", sans-serif;
+font-size: 13px;
+color: #111111;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.overlay_window h3 {
+background: linear-gradient(180deg, #eae9ef 0%, #dad8e6 20%, #c7c4db 40%, #b8b4cc 60%, #a8a3bf 80%, #9c97b5 100%);
+border: 1px solid #817e99;
+box-shadow:
+  inset 0 0 3px rgba(40, 40, 60, 0.25),
+  inset 0 1px 0 rgba(255, 255, 255, 0.15),
+  inset 0 -1px 0 rgba(80, 80, 100, 0.1);
+padding: 2px 4px;
+font-family: "Tahoma", "Verdana", sans-serif;
+font-size: 13px;
+color: #111111;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 }
 #menu_container {
-  background-color: #4e4a6d;
+  background: linear-gradient(180deg, #2e2e38 0%, #1f1f27 100%);
+  border: 1px solid #3e3c4d;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
 }
+
 #overall_result_container {
-  background-color: #4e4a6d;
+  background: linear-gradient(180deg, #2e2e38 0%, #1f1f27 100%);
+  border: 1px solid #3e3c4d;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
 }
+
 #state_info h3 {
-  background-color: #4e4a6d;
+  background: linear-gradient(180deg, #dedbd4 0%, #c8c4bd 100%);
+  border: 1px solid #7b7b7b;
+  color: #111;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
+
 #overall_result h3 {
-  background-color: #4e4a6d;
+  background: linear-gradient(180deg, #dedbd4 0%, #c8c4bd 100%);
+  border: 1px solid #7b7b7b;
+  color: #111;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+}
+#map_container {
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+  border-radius: 12px;
+  box-shadow: 
+    inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
+    0 0 0 2px #0d0d0d;                  /* Outer noir edge (hard frame) */
+  position: relative;
+  overflow: hidden;
 }`
 ;
 document.head.appendChild(style_overwrite);
