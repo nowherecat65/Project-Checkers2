@@ -468,11 +468,11 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
     inset 0 1px 0 rgba(255, 255, 255, 0.15),
 }
 #map_container {
-  background-color: #e6e4e1; /* Subtle cream-grey, matches paper tones from the poster */
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
   border-radius: 12px;
   box-shadow: 
-    inset 0 0 4px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
-    0 0 0 1px #0d0d0d;                  /* Outer noir edge (hard frame) */
+    inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
+    0 0 0 2px #0d0d0d;                  /* Outer noir edge (hard frame) */
   position: relative;
   overflow: hidden;
 }
