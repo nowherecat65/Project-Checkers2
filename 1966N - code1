@@ -376,6 +376,12 @@ background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparen
 background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
           }
+          .inner_window_sign_display {
+            animation: bgFadeS1 1s ease-in-out forwards !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+          }
           #candidate_description_window {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
