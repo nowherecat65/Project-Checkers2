@@ -359,24 +359,41 @@ style.innerHTML = `
     color: #000000;
   }
           #opponent_selection_description_window {
-            background-color: #e8e6e3; /* AGAIN */
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
           }
           #inner_window_1 {
-            background-color: #e8e6e3;
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
           }
           #inner_window_2{
             animation: bgFadeS1 1s ease-in-out forwards !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
           }
           #candidate_description_window {
-            background-color: #e8e6e3;
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
             overflow:hidden;
           }
           #running_mate_description_window {
-            background-color: #e8e6e3;
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
             overflow:hidden;
           }
           #election_description_window{
-            background-color: #e8e6e3;     
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
           }
           #election_summary{
             width:auto;
@@ -470,18 +487,21 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #2e2e38 0%, #1f1f27 100%);
   border: 2px solid #3e3c4d;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 }
 
 #overall_result_container {
   background: linear-gradient(180deg, #2e2e38 0%, #1f1f27 100%);
   border: 2px solid #3e3c4d;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 }
 
 #state_info h3 {
   background: linear-gradient(180deg, #dedbd4 0%, #c8c4bd 100%);
   border: 2px solid #7b7b7b;
   color: #111;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.15),
     inset 0 -1px 0 rgba(0, 0, 0, 0.1);
@@ -491,6 +511,7 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #dedbd4 0%, #c8c4bd 100%);
   border: 2px solid #7b7b7b;
   color: #111;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.15),
 }
@@ -498,20 +519,34 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 #map_container {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
   border-radius: 12px;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow: 
     inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
     0 0 0 2px #0d0d0d;                  /* Outer noir edge (hard frame) */
   position: relative;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
   overflow: hidden;
 }
 .inner_window_question {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
   border-radius: 12px;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow: 
     inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
     0 0 0 2px #0d0d0d;                  /* Outer noir edge (hard frame) */
   position: relative;
+background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+background-blend-mode: multiply;
   overflow: hidden;
+}
+.window, .overlay_window, .modal-content, .modal-body {
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+  background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
+  background-blend-mode: multiply;
+  border-radius: 8px;
+text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
 }
     `;
 
