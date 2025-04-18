@@ -363,12 +363,14 @@ style.innerHTML = `
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
 background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+border-radius: 5px;
           }
           #inner_window_1 {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
 background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+border-radius: 5px;
           }
           #inner_window_2{
             animation: bgFadeS1 1s ease-in-out forwards !important;
@@ -381,12 +383,15 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
 background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+background-color:#e6e4e1;
+border-radius: 5px;
           }
           #candidate_description_window {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
 background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+border-radius: 5px;
             overflow:hidden;
           }
           #running_mate_description_window {
@@ -394,12 +399,14 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
 background-blend-mode: multiply;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
+border-radius: 5px;
             overflow:hidden;
           }
           #election_description_window{
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
 background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
 background-blend-mode: multiply;
+border-radius: 5px;
           }
           #election_summary{
             width:auto;
@@ -524,7 +531,7 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 
 #map_container {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
-  border-radius: 12px;
+  border-radius: 10px;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow: 
     inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
@@ -536,7 +543,7 @@ background-blend-mode: multiply;
 }
 .inner_window_question {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
-  border-radius: 12px;
+  border-radius: 10px;
 text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow: 
     inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
