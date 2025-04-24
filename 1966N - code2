@@ -37,7 +37,7 @@ style_overwrite.innerHTML =
 }
 .inner_window_question h3 {
 background: linear-gradient(180deg, #eae9ef 0%, #dad8e6 20%, #c7c4db 40%, #b8b4cc 60%, #a8a3bf 80%, #9c97b5 100%);
-border: 2px solid #817e99;
+border: 1px solid #817e99;
 box-shadow:
   inset 0 0 3px rgba(40, 40, 60, 0.25),
   inset 0 1px 0 rgba(255, 255, 255, 0.15),
@@ -51,7 +51,7 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 
 .overlay_window h3 {
 background: linear-gradient(180deg, #eae9ef 0%, #dad8e6 20%, #c7c4db 40%, #b8b4cc 60%, #a8a3bf 80%, #9c97b5 100%);
-border: 2px solid #817e99;
+border: 1px solid #817e99;
 box-shadow:
   inset 0 0 3px rgba(40, 40, 60, 0.25),
   inset 0 1px 0 rgba(255, 255, 255, 0.15),
@@ -64,23 +64,20 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 }
 #menu_container {
   background: linear-gradient(180deg, #2e2e38 0%, #1f1f27 100%);
-  border: 2px solid #3e3c4d;
+  border: 1px solid #3e3c4d;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 }
 
 #overall_result_container {
   background: linear-gradient(180deg, #2e2e38 0%, #1f1f27 100%);
-  border: 2px solid #3e3c4d;
+  border: 1px solid #3e3c4d;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 }
 
 #state_info h3 {
   background: linear-gradient(180deg, #dedbd4 0%, #c8c4bd 100%);
-  border: 2px solid #7b7b7b;
+  border: 1px solid #7b7b7b;
   color: #111;
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.15),
     inset 0 -1px 0 rgba(0, 0, 0, 0.1);
@@ -88,44 +85,19 @@ text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
 
 #overall_result h3 {
   background: linear-gradient(180deg, #dedbd4 0%, #c8c4bd 100%);
-  border: 2px solid #7b7b7b;
+  border: 1px solid #7b7b7b;
   color: #111;
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.15),
 }
-
 #map_container {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
   border-radius: 12px;
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
   box-shadow: 
     inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
     0 0 0 2px #0d0d0d;                  /* Outer noir edge (hard frame) */
   position: relative;
-background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
-background-blend-mode: multiply;
   overflow: hidden;
-}
-.inner_window_question {
-  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
-  border-radius: 12px;
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
-  box-shadow: 
-    inset 0 0 5px rgba(0, 0, 0, 0.2),   /* Soft inner depth */
-    0 0 0 2px #0d0d0d;                  /* Outer noir edge (hard frame) */
-  position: relative;
-background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
-background-blend-mode: multiply;
-  overflow: hidden;
-}
-.window, .overlay_window, .modal-content, .modal-body {
-  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
-  background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparent 2px);
-  background-blend-mode: multiply;
-  border-radius: 8px;
-text-shadow: 0 0 1px rgba(255, 255, 255, 0.2);
-  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
 }`
 ;
 document.head.appendChild(style_overwrite);
