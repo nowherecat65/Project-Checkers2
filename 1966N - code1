@@ -662,6 +662,9 @@ $(".container")[0].style.backgroundColor = "#232521";
 
 document.getElementById("header").src = "https://files.catbox.moe/2o1fkv.png";
 
+$(".footer a").css({"color":"#ffffff"});
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#ffffff"
+
 document.body.background = "https://files.catbox.moe/hjctys.png";
 
 let style = document.createElement('style');
