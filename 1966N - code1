@@ -281,11 +281,328 @@ function newMusicPlayer() {
   })
 
 corrr=`\n<h2><font color='#FFFFFF'>THE</font> CAMPAIGN <font color='#FFFFFF'>TRAIL</font></h2>\n<font id="wittyquote" size="4" color="white"><em>“No collusion.” -President Donald J. Trump</em></font>`
-campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 20, \"fields\": {\"year\": 2021, \"summary\": \"<p>Richard Nixon has been President of the United States for six years, and his final midterm elections are fast approaching. Many expect a blue wave, driven by rising unrest over civil rights, Cuba, Vietnam, and the softening approval of Nixon. But the economy is strong, and the President remains determined.</p><p>Can the Democrats break through? Or will Nixon hold the line, and tighten his grip heading into the final act of his presidency?</p>\", \"image_url\": \"https://i.postimg.cc/02HLphVf/ezgif-com-resize.gif\", \"winning_electoral_vote_number\": 51, \"advisor_url\": \"https://i.ibb.co/W5h33Rd/image-2022-02-15-021129.png\", \"recommended_reading\": \"<h4 style=\\\"margin-top: 0.5em;\\\">Articles</h4>FiveThirtyEight - <a href=\\\"http://projects.fivethirtyeight.com/2016-swing-the-election/\\\" target=\\\"_blank\\\"> What Would It Take To Turn Blue States Red?</a></br><a href=\\\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\\\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\\\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\\\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don\\u2019t Be So Sure.</a></br><a href=\\\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\\\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\\\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\\\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\\nHillary Clinton - <a href=\\\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\\\" target=\\\"_blank\\\">Hard Choices</a></br>\\nHillary Clinton - <a href=\\\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\\\" target=\\\"_blank\\\">Living History</a></br>\\nDonald Trump - <a href=\\\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\\\" target=\\\"_blank\\\">Crippled America: How to Make America Great Again</a></br>\\nDonald Trump - <a href=\\\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\\\" target=\\\"_blank\\\">The Art of the Deal</a></br>\\nGary Johnson - <a href=\\\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\\\" target=\\\"_blank\\\">Seven Principles of Good Government</a>\", \"has_visits\": 1, \"no_electoral_majority_image\": \"https://im.ezgif.com/tmp/ezgif-1-247f540dcb.gif\"}}]");
-campaignTrail_temp.temp_election_list = [{"id": 20, "year": 2018, "is_premium": 0, "display_year": "2018"}];
-campaignTrail_temp.candidate_json = JSON.parse("[{\"model\": \"campaign_trail.candidate\", \"pk\": 200, \"fields\": {\"first_name\": \"The\", \"last_name\": \"Republicans\", \"election\": 20, \"party\": \"Republican Party\", \"state\": \"\", \"priority\": 2, \"description\": \"<p>Donald Trump has shocked the political establishment by winning the Republican nomination in a divisive contest. He has taken a hard line on immigration and tax cuts, along with unorthodox positions on many other issues. He must unite his own party while finding some way to peel off potential Clinton voters -- or to blunt their enthusiasm for Clinton enough that they stay home. Will he continue the strategy of relentless attack that served him so well in the primary season?</p>\", \"color_hex\": \"#1E48D7\", \"secondary_color_hex\": \"#7891e7\", \"is_active\": 0, \"image_url\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbM34YpsG4pVzh-gvHnKkaLQYyqNM_kAaJpg1o0a5l7O32hEwmqO7HdR94OH9KfJ--SGs&usqp=CAU\", \"electoral_victory_message\": \"<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>\", \"electoral_loss_message\": \"<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>\", \"no_electoral_majority_message\": \"<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 201, \"fields\": {\"first_name\": \"Richard\", \"last_name\": \"Nixon\", \"election\": 20, \"party\": \"Republican\", \"state\": \"California\", \"priority\": 1, \"description\": \"<div style='overflow-y:scroll;height:200px;'><p><i>’’The finest steel has to go through the hottest fire.’’</i></p><p> A year into his second term as President of the United States, Richard Nixon no longer enjoys the luxury of being underestimated. The man once mocked as a lapdog or a choke artist now stands at the center of what may be the most turbulent and consequential presidency since Franklin Roosevelt’s. The economy continues to boom, thanks in part to the sweeping tax cuts of 1961; his Family Assistance Plan (FAP), signed nearly five years ago, is reshaping welfare as the nation once knew it. <br><br>Even with these domestic successes, matters outside the Beltway are far from settled. Five years after his gamble in Cuba and the overthrow of Fidel Castro, American boots still occupy the island, now wracked by unrest, protest, and mounting violence. In Vietnam, the “peace-keeping” mission keeps expanding as Congress, vote by vote, authorizes more troops. The prospect of a draft and a broader war looms larger by the day. <br><br>  Civil rights remains foremost in the minds of many Americans. Each year of Nixon’s presidency has ended in disappointment on that front; whenever votes inch forward, the total is never quite enough, and the Southern filibuster endures. Yet demonstrations now light up cold Southern streets almost nightly, the promises Nixon made in 1960 and 1964 echo back at him, and quiet conversations with Majority Leader Johnson hint that a breakthrough may finally be at hand. <br><br> The calendar, however, is unrelenting. Nixon’s final midterms draw near. In 1962, buoyed by a triumphant first hundred days and the early victory in Cuba, he rode a wave of optimism. That momentum now seems to be slipping away. Staff note that he stays up later, nursing a glass of bourbon longer than he once did. Cuba, Vietnam, civil rights, every unresolved burden settles on him when the West Wing empties and the phone lines fall silent. For a man once defined by perpetual motion, he now lingers. Reflects. Drinks. </p>\", \"color_hex\": \"#b22b27\", \"secondary_color_hex\": \"#d07f7d\", \"is_active\": 1, \"image_url\": \"https://files.catbox.moe/dufnkr.png\", \"electoral_victory_message\": \"<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>\", \"electoral_loss_message\": \"<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>\", \"no_electoral_majority_message\": \"<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 202, \"fields\": {\"first_name\": \"Gary\", \"last_name\": \"Johnson\", \"election\": 20, \"party\": \"Libertarian\", \"state\": \"New Mexico\", \"priority\": 3, \"description\": \"'\", \"color_hex\": \"#FFFF00\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"'\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 203, \"fields\": {\"first_name\": \"\", \"last_name\": \"Other\", \"election\": 20, \"party\": \"Green\", \"state\": \"Massachusetts\", \"priority\": 4, \"description\": \"'\", \"color_hex\": \"#00C100\", \"secondary_color_hex\": \"#A1FFA1\", \"is_active\": 0, \"image_url\": \"'\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"'\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 204, \"fields\": {\"first_name\": \"Henry Cabot\", \"last_name\": \"Lodge\", \"election\": 20, \"party\": \"Republican\", \"state\": \"Massachusssetts\", \"priority\": 5, \"description\": \"'\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://files.catbox.moe/8uuny4.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<div style='overflow-y:scroll;height:200px;'><p><i>’’Meet the sun every morning as if it could cast a ballot.’’</i></p><p> Henry Cabot Lodge suppresses a yawn, not because he is bored but because he is exhausted. In the past few years the vice president has been absorbed by foreign affairs, focusing most of all on the Big Minh regime in South Vietnam; he has already visited Saigon twice since the Nixon–Lodge ticket won re-election. These days he delivers speeches in front of sandbags rather than rotundas, and he shakes the hands of generals instead of governors. <br><br> Even during the first term Lodge could still catch his breath. Now he moves like a man living out of a duffel bag, speaking with the President by telephone more often than he would like.  <br><br> Yet the grind offers a prize. The former senator and former United Nations ambassador believes that once this circus ends he will stand as a tested, active vice president ready for a run of his own in 1968. Respected, seasoned, perhaps even the early favorite, he tells himself he just needs another cup of coffee. <br><br> First, though, there is the matter of the coming midterms. The sixth year of a presidency is rarely kind to the governing party’s numbers in Congress. With rising domestic unrest, growing unease over overseas deployments, and a creeping weariness with Republican rule, the narrow majorities Lodge would need for a first term of his own already seem to be slipping away. </p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 205, \"fields\": {\"first_name\": \"Chris\", \"last_name\": \"Christie\", \"election\": 20, \"party\": \"Republican\", \"state\": \"New Jersey\", \"priority\": 6, \"description\": \"'\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"/static/images/chris-christie-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Chris Christie is the current Governor of New Jersey, and was Trump's first opponent to endorse him, after making his own bid for the Republican nomination. Christie once enjoyed significant bipartisan support in New Jersey, but that has plummeted. His selection would double-down on Trump's image as an unorthodox, East Coast-influenced Republican. This may or may not be helpful.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 208, \"fields\": {\"first_name\": \"Sarah\", \"last_name\": \"Palin\", \"election\": 20, \"party\": \"Republican\", \"state\": \"Alaska\", \"priority\": 7, \"description\": \"'\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"/static/images/sarah-palin-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Sarah Palin is the former Governor of Alaska and ill-fated running mate on John McCain's 2008 ticket. Many people believe that she alienated some moderate support and may have cost McCain the election. On the other hand, she endorsed your candidacy relatively early and is still something of a folk hero on the right. In any case, she would certainly help you grab an even greater share of the headlines this fall.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 206, \"fields\": {\"first_name\": \"Ben\", \"last_name\": \"Carson\", \"election\": 20, \"party\": \"Republican\", \"state\": \"Michigan\", \"priority\": 7, \"description\": \"'\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"/static/images/ben-carson-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Ben Carson was a candidate for President in 2016, with a long history within the evangelical community. He has never served in political office, a fact which may be an asset in this election. Carson was one of the Trump's first opponents to publicly endorse him, and he consistently polled relatively high in the black community during the primary season. However, he has also made a number of bizarre statements and may be vulnerable to a sustained attack campaign.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 207, \"fields\": {\"first_name\": \"Jeff\", \"last_name\": \"Sessions\", \"election\": 20, \"party\": \"Republican\", \"state\": \"Alabama\", \"priority\": 8, \"description\": \"'\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"/static/images/jeff-sessions-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Jeff Sessions, a Senator from Alabama, was the first major Republican politician to endorse your candidacy. He could help shore up some potentially shaky support on the right of the Republican party. Conversely, Alabama is not competitive, and sustained attacks on Hillary Clinton may be all that is needed to keep that wing in line.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 209, \"fields\": {\"first_name\": \"Chris\", \"last_name\": \"Van Hollen\", \"election\": 20, \"party\": \"Democrat\", \"state\": \"Maryland\", \"priority\": 9, \"description\": \"'\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"https://files.catbox.moe/8uuny4.png\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Christopher J. Van Hollen Jr. is an American attorney and politician serving as an United States senator from Maryland since January 3, 2017. From 2003 to 2017 he served as the U.S. representative for Maryland's 8th congressional district.<br><br>In 2017, Van Hollen became the chair of the Democratic Senatorial Campaign Committee (DSCC). In this post, he will be responsible for leading efforts to defend vulnerable Senate Democrats, and get more Democrats elected to the Senate this year.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 210, \"fields\": {\"first_name\": \"Bernie\", \"last_name\": \"Sanders\", \"election\": 20, \"party\": \"Democrat\", \"state\": \"Vermont\", \"priority\": 10, \"description\": \"'\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"/static/images/bernie-sanders-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Bernie Sanders was your main opponent in the nomination battle. There's no pretending that the two of you have a warm relationship, but he does have fierce support from many of your potential voters. On the other hand, if you want to make the case that you're a moderate alternative to Trump's extremism, having Bernie on the ticket will not help on that front.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 211, \"fields\": {\"first_name\": \"Cory\", \"last_name\": \"Booker\", \"election\": 20, \"party\": \"Democrat\", \"state\": \"New Jersey\", \"priority\": 11, \"description\": \"'\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"/static/images/cory-booker-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Cory Booker is a Senator from New Jersey and was also the Mayor of Newark for several years. Politically, he is a mainstream Democrat, relatively similar to Barack Obama. He is also relatively youthful, with somewhat of a national profile. Turning out the black vote, and preventing even a handful of defectors to Trump, will be essential to a Clinton victory. However, Booker inspires limited enthusiasm amongst Sanders supporters.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 212, \"fields\": {\"first_name\": \"Elizabeth\", \"last_name\": \"Warren\", \"election\": 20, \"party\": \"Democrat\", \"state\": \"Massachusetts\", \"priority\": 12, \"description\": \"'\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"/static/images/elizabeth-warren-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Elizabeth Warren is a Senator from Massachusetts and an icon to progressive Democrats. Selecting her could be a good way to appeal to supporters of Bernie Sanders, but she will expect Clinton to adhere to progressive stances throughout the campaign, as a condition of joining the ticket. Some observers think that having two women on the ticket may be a bit much, and also point out that Warren's home state is safely Democratic.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 213, \"fields\": {\"first_name\": \"Sherrod\", \"last_name\": \"Brown\", \"election\": 20, \"party\": \"Democrat\", \"state\": \"Ohio\", \"priority\": 13, \"description\": \"'\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"/static/images/sherrod-brown-2016.jpg\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"<p>Sherrod Brown is a Senator from Ohio with a long history in that crucial state. He has generally been on the liberal end of the Democratic spectrum, but could help Clinton compete in the Midwest. Brown is reluctant to serve as a running mate this year. Clinton will need to give assurances that her change of position on trade issues, like the Trans-Pacific Partnership, is a permanent change, and was not one of political expediency.</p>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 214, \"fields\": {\"first_name\": \"William\", \"last_name\": \"Weld\", \"election\": 20, \"party\": \"Libertarian\", \"state\": \"Massachusetts\", \"priority\": 14, \"description\": \"'\", \"color_hex\": \"#FFFF00\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"'\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"'\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 215, \"fields\": {\"first_name\": \"Ajamu\", \"last_name\": \"Baraka\", \"election\": 20, \"party\": \"Green\", \"state\": \"Washington DC\", \"priority\": 15, \"description\": \"'\", \"color_hex\": \"#00C100\", \"secondary_color_hex\": \"#A1FFA1\", \"is_active\": 0, \"image_url\": \"'\", \"electoral_victory_message\": \"'\", \"electoral_loss_message\": \"'\", \"no_electoral_majority_message\": \"'\", \"description_as_running_mate\": \"'\", \"candidate_score\": 0.0}}]");
-campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 106, \"fields\": {\"candidate\": 155, \"running_mate\": 164}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 76, \"fields\": {\"candidate\": 116, \"running_mate\": 120}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 67, \"fields\": {\"candidate\": 94, \"running_mate\": 104}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 74, \"fields\": {\"candidate\": 107, \"running_mate\": 114}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 66, \"fields\": {\"candidate\": 93, \"running_mate\": 103}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 81, \"fields\": {\"candidate\": 118, \"running_mate\": 125}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 7, \"fields\": {\"candidate\": 18, \"running_mate\": 38}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 8, \"fields\": {\"candidate\": 19, \"running_mate\": 39}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 82, \"fields\": {\"candidate\": 119, \"running_mate\": 126}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 116, \"fields\": {\"candidate\": 168, \"running_mate\": 178}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 57, \"fields\": {\"candidate\": 80, \"running_mate\": 90}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 56, \"fields\": {\"candidate\": 79, \"running_mate\": 89}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 160, \"fields\": {\"candidate\": 202, \"running_mate\": 214}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 115, \"fields\": {\"candidate\": 167, \"running_mate\": 177}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 46, \"fields\": {\"candidate\": 69, \"running_mate\": 73}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 47, \"fields\": {\"candidate\": 70, \"running_mate\": 76}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 96, \"fields\": {\"candidate\": 144, \"running_mate\": 150}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 97, \"fields\": {\"candidate\": 145, \"running_mate\": 151}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 105, \"fields\": {\"candidate\": 154, \"running_mate\": 163}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1, \"fields\": {\"candidate\": 16, \"running_mate\": 30}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 87, \"fields\": {\"candidate\": 131, \"running_mate\": 135}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 94, \"fields\": {\"candidate\": 143, \"running_mate\": 148}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 89, \"fields\": {\"candidate\": 132, \"running_mate\": 137}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 3, \"fields\": {\"candidate\": 17, \"running_mate\": 31}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 155, \"fields\": {\"candidate\": 200, \"running_mate\": 209}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 92, \"fields\": {\"candidate\": 142, \"running_mate\": 146}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 41, \"fields\": {\"candidate\": 25, \"running_mate\": 62}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 22, \"fields\": {\"candidate\": 20, \"running_mate\": 45}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 48, \"fields\": {\"candidate\": 77, \"running_mate\": 81}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 26, \"fields\": {\"candidate\": 21, \"running_mate\": 49}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 77, \"fields\": {\"candidate\": 117, \"running_mate\": 121}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 68, \"fields\": {\"candidate\": 105, \"running_mate\": 108}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 37, \"fields\": {\"candidate\": 24, \"running_mate\": 58}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 150, \"fields\": {\"candidate\": 201, \"running_mate\": 204}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1502012480, \"fields\": {\"candidate\": 24, \"running_mate\": 205}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1502012480, \"fields\": {\"candidate\": 24, \"running_mate\": 210}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1502012481, \"fields\": {\"candidate\": 24, \"running_mate\": 206}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1502012482, \"fields\": {\"candidate\": 24, \"running_mate\": 207}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 1502012483, \"fields\": {\"candidate\": 24, \"running_mate\": 208}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 33, \"fields\": {\"candidate\": 23, \"running_mate\": 55}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 52, \"fields\": {\"candidate\": 78, \"running_mate\": 85}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 101, \"fields\": {\"candidate\": 153, \"running_mate\": 159}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 44, \"fields\": {\"candidate\": 67, \"running_mate\": 71}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 62, \"fields\": {\"candidate\": 92, \"running_mate\": 99}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 71, \"fields\": {\"candidate\": 106, \"running_mate\": 111}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 18, \"fields\": {\"candidate\": 36, \"running_mate\": 18}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 45, \"fields\": {\"candidate\": 68, \"running_mate\": 72}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 98, \"fields\": {\"candidate\": 152, \"running_mate\": 156}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 13, \"fields\": {\"candidate\": 29, \"running_mate\": 27}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 12, \"fields\": {\"candidate\": 27, \"running_mate\": 29}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 58, \"fields\": {\"candidate\": 91, \"running_mate\": 95}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 99, \"fields\": {\"candidate\": 152, \"running_mate\": 157}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 63, \"fields\": {\"candidate\": 92, \"running_mate\": 100}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 107, \"fields\": {\"candidate\": 165, \"running_mate\": 169}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 111, \"fields\": {\"candidate\": 166, \"running_mate\": 173}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 85, \"fields\": {\"candidate\": 68, \"running_mate\": 129}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 83, \"fields\": {\"candidate\": 67, \"running_mate\": 127}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 108, \"fields\": {\"candidate\": 165, \"running_mate\": 170}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 59, \"fields\": {\"candidate\": 91, \"running_mate\": 96}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 15, \"fields\": {\"candidate\": 29, \"running_mate\": 40}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 113, \"fields\": {\"candidate\": 166, \"running_mate\": 175}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 112, \"fields\": {\"candidate\": 166, \"running_mate\": 174}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 60, \"fields\": {\"candidate\": 91, \"running_mate\": 97}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 109, \"fields\": {\"candidate\": 165, \"running_mate\": 171}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 73, \"fields\": {\"candidate\": 106, \"running_mate\": 113}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 34, \"fields\": {\"candidate\": 23, \"running_mate\": 44}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 9, \"fields\": {\"candidate\": 27, \"running_mate\": 33}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 10, \"fields\": {\"candidate\": 27, \"running_mate\": 40}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 53, \"fields\": {\"candidate\": 78, \"running_mate\": 86}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 69, \"fields\": {\"candidate\": 105, \"running_mate\": 109}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 102, \"fields\": {\"candidate\": 153, \"running_mate\": 160}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 110, \"fields\": {\"candidate\": 165, \"running_mate\": 172}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 20, \"fields\": {\"candidate\": 36, \"running_mate\": 42}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 19, \"fields\": {\"candidate\": 36, \"running_mate\": 41}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 49, \"fields\": {\"candidate\": 77, \"running_mate\": 82}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 16, \"fields\": {\"candidate\": 29, \"running_mate\": 33}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 93, \"fields\": {\"candidate\": 142, \"running_mate\": 147}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 103, \"fields\": {\"candidate\": 153, \"running_mate\": 161}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 72, \"fields\": {\"candidate\": 106, \"running_mate\": 112}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 54, \"fields\": {\"candidate\": 78, \"running_mate\": 87}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 55, \"fields\": {\"candidate\": 78, \"running_mate\": 88}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 86, \"fields\": {\"candidate\": 68, \"running_mate\": 130}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 78, \"fields\": {\"candidate\": 117, \"running_mate\": 122}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 61, \"fields\": {\"candidate\": 91, \"running_mate\": 98}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 84, \"fields\": {\"candidate\": 67, \"running_mate\": 128}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 43, \"fields\": {\"candidate\": 25, \"running_mate\": 64}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 42, \"fields\": {\"candidate\": 25, \"running_mate\": 63}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 40, \"fields\": {\"candidate\": 24, \"running_mate\": 61}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 39, \"fields\": {\"candidate\": 24, \"running_mate\": 60}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 38, \"fields\": {\"candidate\": 24, \"running_mate\": 59}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 95, \"fields\": {\"candidate\": 143, \"running_mate\": 149}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 100, \"fields\": {\"candidate\": 152, \"running_mate\": 158}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 30, \"fields\": {\"candidate\": 21, \"running_mate\": 51}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 28, \"fields\": {\"candidate\": 21, \"running_mate\": 50}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 24, \"fields\": {\"candidate\": 20, \"running_mate\": 47}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 17, \"fields\": {\"candidate\": 29, \"running_mate\": 31}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 11, \"fields\": {\"candidate\": 27, \"running_mate\": 31}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 79, \"fields\": {\"candidate\": 117, \"running_mate\": 123}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 80, \"fields\": {\"candidate\": 117, \"running_mate\": 124}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 90, \"fields\": {\"candidate\": 132, \"running_mate\": 138}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 4, \"fields\": {\"candidate\": 17, \"running_mate\": 32}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 104, \"fields\": {\"candidate\": 153, \"running_mate\": 162}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 25, \"fields\": {\"candidate\": 20, \"running_mate\": 48}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 88, \"fields\": {\"candidate\": 131, \"running_mate\": 136}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 70, \"fields\": {\"candidate\": 105, \"running_mate\": 110}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 2, \"fields\": {\"candidate\": 16, \"running_mate\": 34}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 35, \"fields\": {\"candidate\": 23, \"running_mate\": 56}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 64, \"fields\": {\"candidate\": 92, \"running_mate\": 101}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 36, \"fields\": {\"candidate\": 23, \"running_mate\": 57}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 5, \"fields\": {\"candidate\": 17, \"running_mate\": 33}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 6, \"fields\": {\"candidate\": 17, \"running_mate\": 37}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 23, \"fields\": {\"candidate\": 20, \"running_mate\": 46}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 21, \"fields\": {\"candidate\": 36, \"running_mate\": 43}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 50, \"fields\": {\"candidate\": 77, \"running_mate\": 83}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 91, \"fields\": {\"candidate\": 132, \"running_mate\": 139}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 32, \"fields\": {\"caandidate\": 21, \"running_mate\": 53}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 31, \"fields\": {\"candidate\": 21, \"running_mate\": 52}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 75, \"fields\": {\"candidate\": 106, \"running_mate\": 115}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 65, \"fields\": {\"candidate\": 92, \"running_mate\": 102}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 51, \"fields\": {\"candidate\": 77, \"running_mate\": 84}}]");
-campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 20, \"candidates\": [200, 201, 202, 203]},{\"election\": 16, \"candidates\": [167, 168, 166, 165]},{\"election\": 3, \"candidates\": [19, 18, 17, 16, 205]},{\"election\": 9, \"candidates\": [77, 78, 79, 80]},{\"election\": 15, \"candidates\": [154, 155, 152, 153]},{\"election\": 10, \"candidates\": [93, 94, 91, 92]},{\"election\": 4, \"candidates\": [25, 24, 23]},{\"election\": 11, \"candidates\": [107, 105, 106]},{\"election\": 12, \"candidates\": [116, 118, 119, 117]},{\"election\": 14, \"candidates\": [143, 145, 144, 142]},{\"election\": 5, \"candidates\": [22, 20, 21]},{\"election\": 8, \"candidates\": [69, 70, 67, 68]},{\"election\": 13, \"candidates\": [133, 134, 132, 131]}]");campaignTrail_temp.temp_election_list = [{"id": 20, "year": 2018, "is_premium": 0, "display_year": "1966N"}];
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 11,
+        "fields": {
+            "year": 1960,
+            "summary": "<p>Richard M. Nixon has been President of the United States for six years, and his final midterm elections are fast approaching. Many expect a blue wave, driven by rising unrest over civil rights, Cuba, Vietnam, and the softening approval of Nixon. But the economy is strong, and the President remains determined.</p><p>Can the Democrats break through? Or will Nixon hold the line, and tighten his grip heading into the final act of his presidency?</p>",
+            "image_url": "https://i.postimg.cc/02HLphVf/ezgif-com-resize.gif",
+            "winning_electoral_vote_number": 269,
+            "advisor_url": "https://www.jetsimon.com/public/static/images/kennedy-haldeman-1960.jpg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1960 Election Books and Links</h4>David Pietrusza - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1402777469/amhius20-20\" target=\"_blank\">1960--LBJ vs. JFK vs. Nixon: The Epic Campaign That Forged Three Presidencies</a></br>Theodore White - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0061900605/amhius20-20\" target=\"_blank\">The Making of the President 1960</a></br>W. J. Rorabaugh - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0700618872/amhius20-20\" target=\"_blank\">The Real Making of the President: Kennedy, Nixon, and the 1960 Election</a></br><a href=\"http://www.davidpietrusza.com/1960-cast-of-characters.html\" target=\"_blank\">1960 Cast of Characters</a></br><a href=\"https://www.youtube.com/watch?v=gbrcRKqLSRw\" target=\"_blank\">First Kennedy-Nixon Debate (video)</a></br><a href=\"https://www.youtube.com/watch?v=_CtSW-HQlxQ\" target=\"_blank\">The Making of the President 1960 (video documentary, 1963)</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1960-no-majority-photo.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1966"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 105,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Do-Nothing Democrats",
+            "election": 11,
+            "party": "Democrat",
+            "state": "Nationwide",
+            "priority": 0,
+            "description": "<p>John F. Kennedy has served as a Senator since 1953. He comes from a wealthy political family, and possesses a youthful, telegenic appearance. He has been a moderate Senator in the past, and faces the challenge of winning over liberals who preferred other candidates. Furthermore, almost any stance that Kennedy takes on civil rights will alienate a key bloc of his party. One strategy to finesse these points and focus on the Cold War. Kennedy would be the first Catholic President.</p>",
+            "color_hex": "#1E48D7",
+            "secondary_color_hex": "#7891e7",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-f-kennedy-1960.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1960 Presidential Election.</h3><p>Hopefully you can move the United States in a more modern direction after eight quiet years of Eisenhower, while holding the line against the Soviet Union. At your young age, you have the potential to define the entire decade as President, and perhaps to hand the torch to one of your brothers in the future.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1960 Presidential Election.</h3><p>It was always going to be tough to defeat the Vice President to someone as popular as Eisenhower. However, you still have your seat in the Senate. At your young age, there is no reason you couldn't be a strong contender for President in 1964 or 1968, especially if this election was close. Let's just hope the Democrats don't blame your defeat on your religion.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has won a majority in the Electoral College.</h3><p>The Democrats have an advantage in the House of Representatives, so you are probably in good shape. However, a lot depends on how you deal with Harry Byrd. It's possible that some kind of deal will need to be struck with Byrd or Nixon to get a clean majority in the House.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 106,
+        "fields": {
+            "first_name": "Richard",
+            "last_name": "Nixon",
+            "election": 11,
+            "party": "Republican",
+            "state": "California",
+            "priority": 2,
+            "description": "<div style='overflow-y:scroll;height:200px;'><p><i>’’The finest steel has to go through the hottest fire.’’</i></p><p> A year into his second term as President of the United States, Richard Nixon no longer enjoys the luxury of being underestimated. The man once mocked as a lapdog or a choke artist now stands at the center of what may be the most turbulent and consequential presidency since Franklin Roosevelt’s. The economy continues to boom, thanks in part to the sweeping tax cuts of 1961; his Family Assistance Plan (FAP), signed nearly five years ago, is reshaping welfare as the nation once knew it. <br><br>Even with these domestic successes, matters outside the Beltway are far from settled. Five years after his gamble in Cuba and the overthrow of Fidel Castro, American boots still occupy the island, now wracked by unrest, protest, and mounting violence. In Vietnam, the “peace-keeping” mission keeps expanding as Congress, vote by vote, authorizes more troops. The prospect of a draft and a broader war looms larger by the day. <br><br>  Civil rights remains foremost in the minds of many Americans. Each year of Nixon’s presidency has ended in disappointment on that front; whenever votes inch forward, the total is never quite enough, and the Southern filibuster endures. Yet demonstrations now light up cold Southern streets almost nightly, the promises Nixon made in 1960 and 1964 echo back at him, and quiet conversations with Majority Leader Johnson hint that a breakthrough may finally be at hand. <br><br> The calendar, however, is unrelenting. Nixon’s final midterms draw near. In 1962, buoyed by a triumphant first hundred days and the early victory in Cuba, he rode a wave of optimism. That momentum now seems to be slipping away. Staff note that he stays up later, nursing a glass of bourbon longer than he once did. Cuba, Vietnam, civil rights, every unresolved burden settles on him when the West Wing empties and the phone lines fall silent. For a man once defined by perpetual motion, he now lingers. Reflects. Drinks. </p>",
+            "color_hex": "#b22b27",
+            "secondary_color_hex": "#d07f7d",
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/dufnkr.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1960 Presidential Election.</h3><p>With luck, you will be able to duplicate the eight years of peace and prosperity under Eisenhower. Unfortunately, the Democrats maintain their majority in both houses of Congress. With luck, they will be good partners in a bipartisan governing coalition. Your first order of business is to mend fences with Lyndon Johnson, who is returning to his role as Senate Majority Leader.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1960 Presidential Election.</h3><p>A lot of people think this election was yours to lose, and party operatives are already whispering that Nelson Rockefeller will be the frontrunner in 1964. As such, it appears that your chances of becoming President are over. Perhaps you can return to California and run for Governor, or for the Senate again.</p>",
+            "no_electoral_majority_message": "<h3>No candidate has won a majority in the Electoral College.</h3><p>The Democrats have an advantage in the House of Representatives, so you are probably in bad shape. However, a lot depends on how Kennedy deals with Harry Byrd. It's possible that some kind of deal will need to be struck for any candidate to get a clean majority in the House.</p>",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 107,
+        "fields": {
+            "first_name": "The",
+            "last_name": "Independents",
+            "election": 11,
+            "party": "Independent",
+            "state": "Virginia",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#F6E7B8",
+            "secondary_color_hex": "#E1D192",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 108,
+        "fields": {
+            "first_name": "Lyndon",
+            "last_name": "Johnson",
+            "election": 11,
+            "party": "Democrat",
+            "state": "Texas",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/lyndon-johnson-1960.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Lyndon Johnson is a powerful member of the Democratic Party, having served as Senate Majority Leader for the past five years. Many Southern states are threatening to bolt to a segregationist ticket -- Johnson is the only person with the clout to save most of those states. Texas will also certainly be lost with any other running mate. At the same time, his vote for the Taft-Hartley labor act in 1947 is still a sore spot for unions, and could dampen their enthusiasm for the ticket.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 109,
+        "fields": {
+            "first_name": "Stuart",
+            "last_name": "Symington",
+            "election": 11,
+            "party": "Democrat",
+            "state": "Missouri",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/stuart-symington-1960.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Stuart Symington was a minor contender for the nomination, but he is a respected Senator on foreign policy issues and has good rapport with Kennedy. He has served as Secretary of the Air Force and was a more outspoken opponent of McCarthyism than Kennedy was, which makes him appealing to liberals. His home state of Missouri should be very close in the fall, but he is somewhat unpopular in the Deep South.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 110,
+        "fields": {
+            "first_name": "Hubert H.",
+            "last_name": "Humphrey",
+            "election": 11,
+            "party": "Democrat",
+            "state": "Minnesota",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/hubert-h-humphrey-1960.jpg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Hubert H. Humphrey was another rival for the nomination with clout among the agricultural and labor wings of the party. He is basically blacklisted by the Southern wing of the party for the stances he has taken on civil rights. Selecting him would sacrifice the South, but should increase the chances of winning states like Illinois, Wisconsin, New Jersey, Pennsylvania, and New York.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 111,
+        "fields": {
+            "first_name": "Henry Cabot",
+            "last_name": "Lodge",
+            "election": 11,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 7,
+            "description": "'",
+            "color_hex": "#b22b27",
+            "secondary_color_hex": "#d07f7d",
+            "is_active": 0,
+            "image_url": "https://files.catbox.moe/8uuny4.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><p><i>’’Meet the sun every morning as if it could cast a ballot.’’</i></p><p> Henry Cabot Lodge suppresses a yawn, not because he is bored but because he is exhausted. In the past few years the vice president has been absorbed by foreign affairs, focusing most of all on the Big Minh regime in South Vietnam; he has already visited Saigon twice since the Nixon–Lodge ticket won re-election. These days he delivers speeches in front of sandbags rather than rotundas, and he shakes the hands of generals instead of governors. <br><br> Even during the first term Lodge could still catch his breath. Now he moves like a man living out of a duffel bag, speaking with the President by telephone more often than he would like.  <br><br> Yet the grind offers a prize. The former senator and former United Nations ambassador believes that once this circus ends he will stand as a tested, active vice president ready for a run of his own in 1968. Respected, seasoned, perhaps even the early favorite, he tells himself he just needs another cup of coffee. <br><br> First, though, there is the matter of the coming midterms. The sixth year of a presidency is rarely kind to the governing party’s numbers in Congress. With rising domestic unrest, growing unease over overseas deployments, and a creeping weariness with Republican rule, the narrow majorities Lodge would need for a first term of his own already seem to be slipping away. </p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 114,
+        "fields": {
+            "first_name": "Strom",
+            "last_name": "Thurmond",
+            "election": 11,
+            "party": "Independent",
+            "state": "South Carolina",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 74,
+        "fields": {
+            "candidate": 107,
+            "running_mate": 114
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 68,
+        "fields": {
+            "candidate": 105,
+            "running_mate": 108
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 71,
+        "fields": {
+            "candidate": 106,
+            "running_mate": 111
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 69,
+        "fields": {
+            "candidate": 105,
+            "running_mate": 109
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 70,
+        "fields": {
+            "candidate": 105,
+            "running_mate": 110
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Dan Bryan"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 11,
+        "candidates": [
+            105,
+            106,
+            107
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 11,
+        "candidates": [
+            105,
+            106,
+            107
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 11,
+        "year": 1960,
+        "is_premium": 0,
+        "display_year": "1960"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "https://jetsimon.com/public/placeholderbanner.png",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": ""
+}
+
+//#startcode
+
+
+
 campaignTrail_temp.show_premium = true;
 campaignTrail_temp.premier_ab_test_version = -1;
 campaignTrail_temp.credits = "<button onclick='credits()'>The Nixonverse Team</button>";
@@ -541,6 +858,15 @@ background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparen
 background-blend-mode: multiply;
   overflow: hidden;
 }
+#state_info {
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+}
+#state_result {
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+}
+#overall_result {
+  background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
+}
 .inner_window_question {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
   border-radius: 10px;
@@ -610,3 +936,5 @@ var thing = setInterval(() => {
                 window.clearInterval(thing);
         }
 }, 100);
+
+//#endcode
