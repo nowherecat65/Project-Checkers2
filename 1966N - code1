@@ -225,20 +225,20 @@ function newMusicPlayer() {
                 "url": "https://audio.jukehost.co.uk/0b2u6b8hvXIuDWazLOjOtgfAGz8fUYqD"
               },
               {
+                "name": "Freedom Jazz Dance - Miles Davis",
+                "url": "https://audio.jukehost.co.uk/RDdDaoj5cyWh0dawvSdz4k9l6XdnhzFc"
+            },
+            {
                 "name": "That's Not Me - Brian Wilson",
                 "url": "https://audio.jukehost.co.uk/sHySBadMzjJc51UKAmsIDTZOaZ2Kxjxo"
               },
               {
-                "name": "Go Vote Nixon and Lodge! - The Clancy Hayes Dixieland Band",
-                "url": "https://audio.jukehost.co.uk/rsah6Ge4N7oixfyGolKgcWfLENo6wiHP"
-            },
-            {
-                "name": "He's So Fine - The Chiffons",
-                "url": "https://audio.jukehost.co.uk/fQfjiJoFFUs0Nfj6tvYVwEwTqrmdHuod"
+                "name": "Doctor Robert - The Beatles",
+                "url": "https://audio.jukehost.co.uk/4JSGBmt6xGgn76b9CxtQ9ylGWtxWABHK"
               },
               {
-                "name": "No Particular Place to Go - Chuck Berry",
-                "url": "https://audio.jukehost.co.uk/haeDRghgSlY86FTdRvUqIntlyQC4r1HZ"
+                "name": "Reach Out I’ll Be There - Four Tops",
+                "url": "https://audio.jukehost.co.uk/4o0L8lUT9tbyMvpIauUfWXywsvbcsCdS"
               },
               {
                 "name": "Chug-a-Lug - Roger Miller",
@@ -612,7 +612,7 @@ $(".container")[0].style.backgroundColor = "#AD2D2F"
 credits = function() {
 
 
-   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok, cobalt, History Lover, Nixonland, evasium, Jimbo, Homer", "", "CODED BY: .theanswerisme", "", "Thanks to all the playtesters, and the TCT community as a whole.", "","This is a creative and dramatized take on what might have happened if Nixon had won the Presidency in 1960. The mod team does not claim it is an objective prediction of events."]
+   c = ["WRITTEN BY .theanswerisme, u/ARC-7652, Justanormalguyok, cobalt, History Lover, Nixonland, evasium, Jimbo, Homer", "", "CODED BY: .theanswerisme, Listman (map)", "Thanks to all the playtesters, and the TCT community as a whole.", "","This is a creative and dramatized take on what might have happened if Nixon had won the Presidency in 1960. The mod team does not claim it is an objective prediction of events."]
 
 
    text = "CREDITS:\n\n"
