@@ -889,7 +889,7 @@ campaignTrail_temp.states_json = [
             "name": "Massachusetts (OPEN: Edward Brooke, R vs Endicott Peabody, D)",
             "abbr": "MA",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 1999857,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -903,7 +903,7 @@ campaignTrail_temp.states_json = [
             "name": "Minnesota (Hubert H. Humphrey★, DFL vs Robert A. Forsythe Jr., R)",
             "abbr": "MN",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 1271426,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -914,10 +914,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13265,
         "fields": {
-            "name": "Montana (Lee Metcalf★, D vs Republican nominee, R)",
+            "name": "Montana (Lee Metcalf★, D vs Tim Babcock, R)",
             "abbr": "MT",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 259863,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -931,7 +931,7 @@ campaignTrail_temp.states_json = [
             "name": "Idaho (Len Jordan★, R vs Ralph Harding, D)",
             "abbr": "ID",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 252456,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -945,7 +945,7 @@ campaignTrail_temp.states_json = [
             "name": "Colorado (Gordon Allott★, R vs Edward Kennedy, D)",
             "abbr": "CO",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 634837,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -956,10 +956,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13292,
         "fields": {
-            "name": "New Mexico (Anderson, D)",
+            "name": "New Mexico (Clinton P. Anderson★, D vs Anderson Carter, R)",
             "abbr": "NM",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 258193,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -970,10 +970,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13301,
         "fields": {
-            "name": "Oregon OPEN (Neuberger, D)",
+            "name": "Oregon OPEN (Mark Hatfield, R vs Robert B. Duncan, D)",
             "abbr": "OR",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 684765,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -984,10 +984,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13310,
         "fields": {
-            "name": "Wyoming OPEN (Simpson, R)",
+            "name": "Wyoming OPEN (Clifford Hansen, R vs Teno Roncalio, D)",
             "abbr": "WY",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 122689,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -998,10 +998,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13319,
         "fields": {
-            "name": "Arkansas (McClellan, D)",
+            "name": "Arkansas (John L. McClellan★, D vs John Paul Hammerschmidt, R)",
             "abbr": "AR",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 176241,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1012,10 +1012,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13328,
         "fields": {
-            "name": "Iowa (Miller, R)",
+            "name": "Iowa (Jack Miller★, R vs E.B. Smith, D)",
             "abbr": "IA",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 846453,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1026,10 +1026,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13337,
         "fields": {
-            "name": "Kansas (Pearson, R)",
+            "name": "Kansas (James B. Pearson★, R vs James Floyd Haught, D)",
             "abbr": "KS",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 671345,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1040,10 +1040,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13346,
         "fields": {
-            "name": "Nebraska (Curtis, R)",
+            "name": "Nebraska (Carl Curtis★, R vs Frank Morrison, D)",
             "abbr": "NE",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 593985,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1054,10 +1054,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13355,
         "fields": {
-            "name": "Oklahoma (Harris, D)",
+            "name": "Oklahoma (Fred R. Harris★, D vs Pat Patterson, R)",
             "abbr": "OK",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 638742,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1068,10 +1068,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13364,
         "fields": {
-            "name": "South Dakota (Mundt, R)",
+            "name": "South Dakota (Karl Mundt★, R vs Kenneth Holum, D)",
             "abbr": "SD",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 227080,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1082,10 +1082,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13373,
         "fields": {
-            "name": "Louisiana (Ellender, D)",
+            "name": "Louisiana (Allen J. Ellender★, D vs E.L. ''Took'' Gathings, R)",
             "abbr": "LA",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 437695,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1096,10 +1096,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13382,
         "fields": {
-            "name": "Texas (Tower, R)",
+            "name": "Texas (Lyndon Johnson★, D vs Bruce Alger, R)",
             "abbr": "TX",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 1486356,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1110,10 +1110,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13391,
         "fields": {
-            "name": "New Hampshire (McIntyre, D)",
+            "name": "New Hampshire (Thomas J. McIntyre★, D vs Doloris Bridges, R)",
             "abbr": "NH",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 278984,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1124,10 +1124,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13400,
         "fields": {
-            "name": "Rhode Island (Pell, D)",
+            "name": "Rhode Island (Claiborne Pell★, D vs Ruth M. Briggs, R)",
             "abbr": "RI",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 394069,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1138,10 +1138,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13409,
         "fields": {
-            "name": "Alabama (Sparkman, D)",
+            "name": "Alabama (John Sparkman★, D vs John Grenier, R)",
             "abbr": "AL",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 802600,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1152,10 +1152,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13418,
         "fields": {
-            "name": "Georgia (Russell, D)",
+            "name": "Georgia (Richard Russell Jr.★, D vs E. Earl Patton, R)",
             "abbr": "GA",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 631330,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1166,10 +1166,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13427,
         "fields": {
-            "name": "Mississippi (Eastland, D)",
+            "name": "Mississippi (James O. Eastland★, D vs Prentiss Walker, R)",
             "abbr": "MS",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 393900,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1180,10 +1180,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13436,
         "fields": {
-            "name": "South Carolina (Thurmond, R)",
+            "name": "South Carolina (Strom Thurmond★, D vs William D. Workman Jr., R)",
             "abbr": "SC",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 436252,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1194,10 +1194,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13445,
         "fields": {
-            "name": "South Carolina SPECIAL (D.S. Russell, D)",
+            "name": "South Carolina SPECIAL (Donald S. Russell★, D vs Marshall Parker, R)",
             "abbr": "SC_5",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 435822,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1208,10 +1208,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13454,
         "fields": {
-            "name": "Illinois (Douglas, D)",
+            "name": "Illinois (Paul Douglas★, D vs Charles H. Percy, R)",
             "abbr": "IL",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 3822724,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1222,10 +1222,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13463,
         "fields": {
-            "name": "Kentucky (J.S. Cooper, R)",
+            "name": "Kentucky (John Sherman Cooper★, R vs John Y. Brown Sr., D)",
             "abbr": "KY",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 749884,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1236,10 +1236,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13472,
         "fields": {
-            "name": "North Carolina (B.E. Jordan, D)",
+            "name": "North Carolina (B. Everett Jordan★, D vs John Shallcross, R)",
             "abbr": "NC",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 1245085,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1250,10 +1250,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13481,
         "fields": {
-            "name": "Tennessee OPEN (Bass, D)",
+            "name": "Tennessee OPEN (Frank Clement, D vs Howard Baker, R)",
             "abbr": "TN",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 895968,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1264,10 +1264,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13490,
         "fields": {
-            "name": "Virginia OPEN (A.W. Robertson, D)",
+            "name": "Virginia OPEN (A. Willis Robertson★, D vs William Spong Jr., D)",
             "abbr": "VA",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 733879,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1278,10 +1278,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13499,
         "fields": {
-            "name": "Virginia SPECIAL (Harry Byrd, D)",
+            "name": "Virginia SPECIAL (Harry F. Byrd Jr.★, D vs Lawrence M. Traylor, R vs John W. Carter, C)",
             "abbr": "VA_5",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 729839,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1292,10 +1292,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13508,
         "fields": {
-            "name": "West Virginia (Randolph, D)",
+            "name": "West Virginia (Jennings Randolph★, D vs James D. Sprouse, R)",
             "abbr": "WV",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 732022,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1306,10 +1306,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13517,
         "fields": {
-            "name": "Delaware (Boggs, R)",
+            "name": "Delaware (J. Caleb Boggs★, R vs James M. Tunnell Jr., D)",
             "abbr": "DE",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 164531,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1320,10 +1320,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13526,
         "fields": {
-            "name": "New Jersey (Case, R)",
+            "name": "New Jersey (Clifford P. Case★, R vs Warren W. Wilentz, D)",
             "abbr": "NJ",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 2174377,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1334,10 +1334,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13535,
         "fields": {
-            "name": "Maine (Smith, R)",
+            "name": "Maine (Margaret Chase Smith★, R vs Peter N. Kyros, D)",
             "abbr": "ME",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 319535,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1348,10 +1348,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13544,
         "fields": {
-            "name": "Michigan (Griffin, R)",
+            "name": "Michigan (Robert P. Griffin★, R vs G. Mennen ''Soapy'' Williams, D)",
             "abbr": "MI",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 2439180,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
@@ -1362,10 +1362,10 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13553,
         "fields": {
-            "name": "Alaska (Bartlett, D)",
+            "name": "Alaska (E. L. ''Bob'' Bartlett★, D vs Lee McKinley, R)",
             "abbr": "AK",
             "electoral_votes": 1,
-            "popular_votes": 10,
+            "popular_votes": 65250,
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
             "election": -1
