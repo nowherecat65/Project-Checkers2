@@ -886,7 +886,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13247,
         "fields": {
-            "name": "Massachussets (Brooke, R))",
+            "name": "Massachusetts (OPEN: Edward Brooke, R vs Endicott Peabody, D)",
             "abbr": "MA",
             "electoral_votes": 1,
             "popular_votes": 10,
@@ -900,7 +900,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13256,
         "fields": {
-            "name": "Minnesota (Mondale, DFL)",
+            "name": "Minnesota (Hubert H. Humphrey★, DFL vs Robert A. Forsythe Jr., R)",
             "abbr": "MN",
             "electoral_votes": 1,
             "popular_votes": 10,
@@ -914,7 +914,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13265,
         "fields": {
-            "name": "Montana (Metcalf, D)",
+            "name": "Montana (Lee Metcalf★, D vs Republican nominee, R)",
             "abbr": "MT",
             "electoral_votes": 1,
             "popular_votes": 10,
@@ -928,7 +928,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13274,
         "fields": {
-            "name": "Idaho (Jordan, R)",
+            "name": "Idaho (Len Jordan★, R vs Ralph Harding, D)",
             "abbr": "ID",
             "electoral_votes": 1,
             "popular_votes": 10,
@@ -942,7 +942,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13283,
         "fields": {
-            "name": "Colorado (Allott, R)",
+            "name": "Colorado (Gordon Allott★, R vs Edward Kennedy, D)",
             "abbr": "CO",
             "electoral_votes": 1,
             "popular_votes": 10,
