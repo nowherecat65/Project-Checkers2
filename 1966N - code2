@@ -886,7 +886,7 @@ campaignTrail_temp.states_json = [
         "model": "campaign_trail.state",
         "pk": 13247,
         "fields": {
-            "name": "Massachusetts (OPEN: Edward Brooke, R vs Endicott Peabody, D)",
+            "name": "Massachusetts (OPEN: Edward Brooke, R vs Eunice Kennedy Shriver, D)",
             "abbr": "MA",
             "electoral_votes": 1,
             "popular_votes": 1999857,
