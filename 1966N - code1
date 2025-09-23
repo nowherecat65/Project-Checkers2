@@ -862,7 +862,7 @@ background-blend-mode: multiply;
   overflow: hidden;
 }
 #state_result_container {
-  height: 58%;
+  height: 56%;
 }
 .overlay_window {
             height: auto;
