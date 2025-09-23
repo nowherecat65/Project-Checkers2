@@ -861,6 +861,9 @@ background-image: repeating-radial-gradient(rgba(0, 0, 0, 0.015) 1px, transparen
 background-blend-mode: multiply;
   overflow: hidden;
 }
+.overlay_window {
+            height: auto;
+		}
 #state_info {
   background: linear-gradient(to bottom, #f0efed 0%, #e6e4e1 50%, #dad8d5 100%) !important;
 }
