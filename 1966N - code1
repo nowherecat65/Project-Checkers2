@@ -287,7 +287,7 @@ campaignTrail_temp.election_json = [
         "pk": 11,
         "fields": {
             "year": 1960,
-            "summary": "<p>Richard M. Nixon has been president for six years, and his final midterm elections are fast approaching. Many expect a blue wave, driven by rising unrest over civil rights, Cuba, and Vietnam, and by Nixon’s softening approval ratings. On Capitol Hill, a narrowed civil rights bill grinds through a Southern filibuster, its fate riding on cloture counts and back-room dealmaking. Yet the economy is strong, and the president remains determined.</p><p>Can the Democrats break through, or will Nixon hold the line and tighten his grip as his presidency enters its final act?</p>",
+            "summary": "<p>Richard M. Nixon has been president for six years, and his final midterm elections are fast approaching. Many expect a blue wave, driven by rising unrest over civil rights, Cuba, and Vietnam, and by Nixon’s softening approval ratings. On Capitol Hill, a narrowed civil rights bill is stalled in a Southern filibuster, its fate hanging on a handful of senators. Yet the economy is strong, and the president remains determined.</p><p>Can the Democrats break through, or will Nixon hold the line and tighten his grip as his presidency enters its final act?</p>",
             "image_url": "https://i.postimg.cc/02HLphVf/ezgif-com-resize.gif",
             "winning_electoral_vote_number": 269,
             "advisor_url": "https://www.jetsimon.com/public/static/images/kennedy-haldeman-1960.jpg",
