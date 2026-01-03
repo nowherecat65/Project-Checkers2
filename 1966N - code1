@@ -660,7 +660,7 @@ $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/x1waj
 
 $(".container")[0].style.backgroundColor = "#232521";
 
-document.getElementById("header").src = "https://files.catbox.moe/2o1fkv.png";
+document.getElementById("header").src = "https://i.postimg.cc/Qxj5PKLd/1966banner.jpg";
 
 $(".footer a").css({"color":"#ffffff"});
 nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#ffffff"
